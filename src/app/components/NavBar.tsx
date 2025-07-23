@@ -16,7 +16,7 @@ const NavBar = () => {
       <div className='flex items-center space-x-2 text-[#383635] text-2xl font-semibold'>
         <Image
           src="/Logo.png"
-          alt="HeroFurnitureLogo"
+          alt="/Logo2.png"
           width={50}
           height={50}
         />

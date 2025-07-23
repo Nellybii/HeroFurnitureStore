@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   title: 'FurniStore',
   description: 'Furniture eCommerce app',
   icons: {
-    icon: '/public/Logo.png',
+    icon: '/public/Logo2.png',
   },
 };
 
