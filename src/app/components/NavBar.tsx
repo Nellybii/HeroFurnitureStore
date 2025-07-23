@@ -20,7 +20,6 @@ const NavBar = () => {
           width={50}
           height={50}
         />
-        <span>HeroFurniture</span>
       </div>
 
       <nav className='flex items-center space-x-6 font-bold'>
