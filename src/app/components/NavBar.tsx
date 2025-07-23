@@ -15,11 +15,12 @@ const NavBar = () => {
     <header className='bg-gray-200 p-4 shadow-md flex justify-between items-center'>
       <div className='flex items-center space-x-2 text-[#383635] text-2xl font-semibold'>
         <Image
-          src="/logo.png"
+          src="/Logo.png"
           alt="HeroFurnitureLogo"
           width={50}
           height={50}
         />
+        <span>HeroFurniture</span>
       </div>
 
       <nav className='flex items-center space-x-6 font-bold'>
