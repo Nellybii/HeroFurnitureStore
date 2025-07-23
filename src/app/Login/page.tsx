@@ -9,7 +9,6 @@ const LoginPage = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Future: handle login logic here
     console.log('Login with:', { email, password });
   };
 
@@ -61,7 +60,7 @@ const LoginPage = () => {
           Login
         </Button>
         <p className="text-center text-gray-600">
-          Don't have an account? <a href="/Register" className="text-blue-500 hover:underline">Register</a>
+          Don&apos;t have an account? <a href="/Register" className="text-blue-500 hover:underline">Register</a>
         </p>
       </form>
     </div>
