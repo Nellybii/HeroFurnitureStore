@@ -65,7 +65,7 @@ const Categories = () => {
 
       <div className="mt-10 text-center">
         <Link
-          href="/categories"
+          href="/Categories"
           className="inline-block bg-[#e2814d] text-white font-semibold py-3 px-6 rounded-xl hover:bg-[#d06f3c] transition duration-300"
         >
           Browse All Categories

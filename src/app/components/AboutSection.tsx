@@ -24,7 +24,7 @@ const AboutSection = () => {
           <Button>
             <Link
               href="/About"
-              className="inline-block text-white rounded-xl text-lg hover:bg-[#383635] transition duration-300"
+              className="inline-block text-white rounded-xl text-lg transition duration-300"
             >
               Learn More About Us
             </Link>

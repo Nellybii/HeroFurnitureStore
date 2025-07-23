@@ -1,15 +1,27 @@
 'use client'
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { Menu, X } from 'lucide-react'; // install lucide-react for icons
+import { Menu, X } from 'lucide-react';
+import { useRouter } from 'next/navigation';
 
 const NavBar = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const router = useRouter();
 
-  const handleAuthToggle = () => setIsLoggedIn(!isLoggedIn);
+  useEffect(() => {
+    const loggedIn = localStorage.getItem('isLoggedIn') === 'true';
+    setIsLoggedIn(loggedIn);
+  }, []);
+
+  const handleLogout = () => {
+    localStorage.removeItem('isLoggedIn');
+    setIsLoggedIn(false);
+    router.push('/');
+  };
+
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
   return (
@@ -20,7 +32,6 @@ const NavBar = () => {
           <span>HeroFurniture</span>
         </div>
 
-        {/* Hamburger button for small screens */}
         <button
           className="md:hidden text-[#e2814d]"
           onClick={toggleMenu}
@@ -29,23 +40,20 @@ const NavBar = () => {
           {isMenuOpen ? <X size={28} /> : <Menu size={28} />}
         </button>
 
-        {/* Nav links for medium and up */}
         <nav className="hidden md:flex items-center space-x-6 font-bold">
           <Link href="/" className="text-[#e2814d] hover:text-[#c76a3c]">Home</Link>
           <Link href="/About" className="text-[#e2814d] hover:text-[#c76a3c]">About</Link>
           <Link href="/Categories" className="text-[#e2814d] hover:text-[#c76a3c]">Categories</Link>
           <Link href="/Blog" className="text-[#e2814d] hover:text-[#c76a3c]">Blog</Link>
           <Link href="/Contact" className="text-[#e2814d] hover:text-[#c76a3c]">Contact</Link>
-          <button
-            onClick={handleAuthToggle}
-            className="text-blue-500 hover:text-blue-700"
-          >
-            {isLoggedIn ? 'Logout' : 'Login'}
-          </button>
+          {isLoggedIn ? (
+            <button onClick={handleLogout} className="text-blue-500 hover:text-blue-700">Logout</button>
+          ) : (
+            <Link href="/Login" className="text-blue-500 hover:text-blue-700">Login</Link>
+          )}
         </nav>
       </div>
 
-      {/* Mobile dropdown menu */}
       {isMenuOpen && (
         <nav className="flex flex-col mt-4 space-y-3 md:hidden font-bold">
           <Link href="/" className="text-[#e2814d] hover:text-[#c76a3c]">Home</Link>
@@ -53,12 +61,11 @@ const NavBar = () => {
           <Link href="/Categories" className="text-[#e2814d] hover:text-[#c76a3c]">Categories</Link>
           <Link href="/Blog" className="text-[#e2814d] hover:text-[#c76a3c]">Blog</Link>
           <Link href="/Contact" className="text-[#e2814d] hover:text-[#c76a3c]">Contact</Link>
-          <button
-            onClick={handleAuthToggle}
-            className="text-blue-500 hover:text-blue-700"
-          >
-            {isLoggedIn ? 'Logout' : 'Login'}
-          </button>
+          {isLoggedIn ? (
+            <button onClick={handleLogout} className="text-[#e2814d] hover:text-[#c76a3c]">Logout</button>
+          ) : (
+            <Link href="/Login" className="text-[#e2814d] hover:text-[#c76a3c]">Login</Link>
+          )}
         </nav>
       )}
     </header>

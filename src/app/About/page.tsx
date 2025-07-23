@@ -55,7 +55,7 @@ const About = () => {
         <h2 className="text-2xl font-semibold text-[#f59a69] mb-4">Ready to Transform Your Space?</h2>
         <p className="text-gray-600 mb-6">Explore our product categories and find the perfect pieces for your home or office.</p>
         <a
-          href="/categories"
+          href="/Categories"
           className="inline-block bg-[#e2814d] text-white font-semibold py-3 px-6 rounded-xl hover:bg-[#d06f3c] transition duration-300"
         >
           Browse Our Collection

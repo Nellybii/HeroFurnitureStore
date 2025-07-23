@@ -31,7 +31,9 @@ const HeroSection = () => {
           Discover our exclusive collection of modern stylish furniture designed
           to elevate your space.
         </p>
-        <Button>Shop Now</Button>
+        <Button>
+            <a href="/Login">Shop Now</a>
+        </Button>
       </div>
 
       <div className="w-full md:w-1/2 h-64 md:h-[400px] relative mt-8 md:mt-0">
