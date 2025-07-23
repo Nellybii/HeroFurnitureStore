@@ -28,7 +28,7 @@ const About = () => {
             Our curated collection blends timeless craftsmanship with modern comfort. Each piece is made with care and precision, using high-quality materials to ensure durability and style.
           </p>
           <p className="text-gray-700">
-            Whether you're furnishing your living room, office, or bedroom, we aim to provide stylish and sustainable furniture that suits your needs and personal taste.
+            Whether you are furnishing your living room, office, or bedroom, we aim to provide stylish and sustainable furniture that suits your needs and personal taste.
           </p>
         </div>
       </section>
