@@ -46,7 +46,7 @@ const About = () => {
           </li>
           <li className="bg-white shadow-md p-6 rounded-xl">
             <h3 className="font-semibold text-lg mb-2">Sustainable Design</h3>
-            <p className="text-gray-600">We’re committed to environmentally conscious manufacturing and packaging.</p>
+            <p className="text-gray-600">We are committed to environmentally conscious manufacturing and packaging.</p>
           </li>
         </ul>
       </section>
