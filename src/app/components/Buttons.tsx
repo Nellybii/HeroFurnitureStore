@@ -3,7 +3,7 @@
 import React from 'react';
 
 interface ButtonProps {
-  children: React.ReactNode; // This lets you pass "Book Now", "Explore More", etc.
+  children: React.ReactNode; 
   onClick?: () => void;
   className?: string;
   type?: 'button' | 'submit' | 'reset';

@@ -14,7 +14,7 @@ const AboutSection = () => {
           </h2>
           <p className="text-gray-700 text-lg mb-6">
             FurniSpace is your go-to destination for stylish, high-quality furniture designed to elevate your living experience.
-            Whether you're furnishing a cozy home, a modern office, or a vibrant dining space, our collections blend craftsmanship,
+            Whether you are furnishing a cozy home, a modern office, or a vibrant dining space, our collections blend craftsmanship,
             comfort, and contemporary design tailored to your lifestyle.
           </p>
           <p className="text-gray-700 text-lg mb-8">

@@ -9,7 +9,7 @@ const ContactSection = () => {
         <div>
           <h2 className="text-4xl font-bold text-[#f59a69] mb-4">Get in Touch</h2>
           <p className="text-gray-600 mb-6">
-            We'd love to hear from you! Reach out with any questions, suggestions, or just to say hello.
+            We would love to hear from you! Reach out with any questions, suggestions, or just to say hello.
           </p>
           <ul className="text-gray-700 space-y-4">
             <li>

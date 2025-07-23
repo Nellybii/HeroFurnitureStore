@@ -9,7 +9,7 @@ export default function ContactPage() {
           Contact Us
         </h1>
         <p className="text-center text-gray-600 mb-12">
-          We'd love to hear from you! Reach out using the form or contact info below.
+          We would love to hear from you! Reach out using the form or contact info below.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
