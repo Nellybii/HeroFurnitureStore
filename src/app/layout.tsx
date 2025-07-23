@@ -17,9 +17,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: 'FurniStore',
   description: 'Furniture eCommerce app',
-  icons: {
-    icon: '/Logo.png',
-  },
+  
 };
 
 export default function RootLayout({
