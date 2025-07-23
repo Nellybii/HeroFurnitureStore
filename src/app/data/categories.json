@@ -1,0 +1,62 @@
+[
+  {
+    "slug": "living-room",
+    "title": "Living Room",
+    "description": "Elegant and functional furniture for your living space.",
+    "image": "https://images.unsplash.com/photo-1631510083755-11ecb5172d81?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGxpdmluZyUyMHJvb20lMjBmdXJuaXR1cmVzfGVufDB8fDB8fHww"
+  },
+  {
+    "slug": "dining",
+    "title": "Dining",
+    "description": "Stylish dining tables, chairs, and dining sets for every home.",
+    "image": "https://images.unsplash.com/photo-1740759546813-6b58d44f5dce?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZGluaW5nJTIwZnVybml0dXJlc3xlbnwwfHwwfHx8MA%3D%3D"
+  },
+  {
+    "slug": "bedroom",
+    "title": "Bedroom",
+    "description": "Comfortable beds, wardrobes, and nightstands for restful nights.",
+    "image": "https://images.pexels.com/photos/5490288/pexels-photo-5490288.jpeg"
+  },
+  {
+    "slug": "office",
+    "title": "Office",
+    "description": "Productive and stylish desks, chairs, and storage for your workspace.",
+    "image": "https://images.pexels.com/photos/416320/pexels-photo-416320.jpeg"
+  },
+  {
+    "slug": "bar-stools",
+    "title": "Bar Stools",
+    "description": "Modern and classic bar stools to elevate your space.",
+    "image": "https://images.pexels.com/photos/2442899/pexels-photo-2442899.jpeg"
+  },
+  {
+    "slug": "bistro-hotel",
+    "title": "Bistro & Hotel",
+    "description": "Furniture designed for restaurants, cafes, and hotel spaces.",
+    "image": "https://images.pexels.com/photos/13794964/pexels-photo-13794964.jpeg"
+  },
+  {
+    "slug": "display-wine-cabinets",
+    "title": "Display & Wine Cabinets",
+    "description": "Elegant cabinets to display your collectibles and wine.",
+    "image": "https://images.pexels.com/photos/3375013/pexels-photo-3375013.jpeg"
+  },
+  {
+    "slug": "decor",
+    "title": "Décor",
+    "description": "Finish your space with stunning decor and accessories.",
+    "image": "https://media.istockphoto.com/id/1161177015/photo/modern-living-room-in-natural-botanical-style.jpg?s=1024x1024&w=is&k=20&c=H6XHNAR6q8pUMw74xDQMCOY1VCD6f-BVmlRVSevyF8A="
+  },
+  {
+    "slug": "carpets-mats",
+    "title": "Carpets & Mats",
+    "description": "Rugs and mats that bring warmth and comfort to your rooms.",
+    "image": "https://images.pexels.com/photos/2631746/pexels-photo-2631746.jpeg"
+  },
+  {
+    "slug": "outdoor",
+    "title": "Outdoor",
+    "description": "Durable and stylish furniture for your outdoor living spaces.",
+    "image": "https://images.pexels.com/photos/139109/pexels-photo-139109.jpeg"
+  }
+]
